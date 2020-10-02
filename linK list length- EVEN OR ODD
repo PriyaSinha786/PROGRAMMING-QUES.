@@ -1,0 +1,14 @@
+#given function with argument head;
+
+int lengthod(node* head){
+int z=0;
+while(head!=NULL){
+head=head->next;
+z++;
+}
+if(z%2==0){
+return 0;
+}
+else{
+return 1;
+}
